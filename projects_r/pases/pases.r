@@ -335,9 +335,9 @@ pases_carrasco<- eventos %>%
   filter(type_id==1 & Name == 'Yannick Carrasco')
 
 
-# GRAFICA PASES
+# PASSES GRAPH
 
-
+                  
 ## Opcion 1 punto y segmento
 crear_Campo()+
   geom_point(data=pases_carrasco,aes(x=x,y=y, color=resultado), size=3)+
